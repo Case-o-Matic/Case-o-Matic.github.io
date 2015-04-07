@@ -1,2 +1,2 @@
-#http://www.case-o-catic.github.io/
+#http://www.case-o-matic.github.io/
 Official Case-o-Matic GitHub Page
