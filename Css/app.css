@@ -1,0 +1,255 @@
+﻿body {
+    font-weight: 400;
+    color: #111;
+    overflow-x: auto;
+    font-family: 'Bebas Neue';
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    border: 0px none;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link {
+    color: blue;
+}
+a:hover {
+    color: darkblue;
+}
+a:visited {
+    color: violet;
+}
+
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 90px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+p {
+    font-size: 32px;
+}
+
+ol, ul {
+    list-style: outside none none;
+}
+li {
+    font-size: 24px;
+}
+
+img {
+    pointer-events: none;
+}
+
+section {
+    position: relative;
+    padding: 64px 0px;
+    overflow: hidden;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Bebas Neue';
+}
+
+#header {
+
+}
+
+#games:after {
+    
+}
+#games {
+    padding-bottom: 32px;
+    color: #fff;
+}
+
+#technology {
+    padding-top: 0px;
+    background-color: #ffffff;
+}
+
+#aboutus {
+    padding-bottom: 32px;
+    color: #58a8ff;
+}
+
+#footer {
+    margin-top:1em;
+    color: black;
+    padding:10px;
+    float: left;
+}
+
+.button-content-grid {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 0px -20px 15px 0px;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.button-content-grid-hor {
+    display: table;
+    clear: left;
+    float: left;
+    /*box-sizing: border-box;*/
+}
+.button-content-grid-hor-li {
+    width: 20%;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.button-content-grid-li {
+    width: 20%;
+}
+.button-content-grid-li:hover {
+    background-color: lightblue;
+}
+.button-content-grid-li-main {
+    display: block;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 32px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.header-logos {
+    position: relative;
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+.header-logos-caseomatic {
+    height: 190px;
+}
+
+.header-content {
+    position: relative;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 32px;
+    z-index: 2;
+}
+
+.games-background {
+    position: absolute;
+    top: -100px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    min-width: 1200px;
+    margin-left: 0px;
+    background: url("../Resources/bf4-testbanner.jpg") no-repeat scroll left transparent;
+}
+
+.games-content {
+    position: relative;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 32px;
+    z-index: 2;
+}
+
+.games-content-title {
+
+}
+
+.games-content-description {
+    margin: 48px 0px;
+    width: 50%;
+}
+
+.games-content-grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.technology-content {
+    position: relative;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 32px;
+    z-index: 2;
+}
+
+.technology-background {
+    position: absolute;
+    bottom: -26%;
+    height: 1050px;
+    left: 0px;
+    right: 0px;
+    background: url("../Resources/technology-banner.png") no-repeat scroll center transparent;
+}
+
+.technology-content-logos {
+    z-index: 2;
+    padding: 0px 32px;
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.technology-content-logos-h1 {
+    margin-top: 20px;
+    color: #ff6a00;
+}
+.technology-content-project-h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.technology-content-project-description {
+    margin: 48px 0px;
+    width: 50%;
+}
+
+.technology-content-space {
+    margin-top: 80px;
+}
+
+.aboutus-background {
+    background-color: #ffc9c9;
+}
+
+.aboutus-content {
+    position: relative;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 32px;
+    z-index: 2;
+}
+
+.aboutus-content-h1 {
+    color: #2cff30;
+}
+
+.footer-background {
+    background-color: #b2b2b2;
+}
+.footer-content {
+    margin-left: 25%;
+}
